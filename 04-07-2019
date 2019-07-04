@@ -1,0 +1,31 @@
+-- 04 julio de 2019 --
+
+-- Fechas y nombres van con comillas simples ''--
+
+insert into CATEGORIA values(777,'La categoria','La descricion de la categoria');
+-- No se ve en otros pc´s ya que se tiene que cumplir el concepto de transaccion --
+-- Transaccion: atomización de los procesos se hace o no se hace si llega a fallar algo --
+
+SELECT * FROM CATEGORIA order by K_CATEGORIA;
+
+-- Problemas con concurrencia? --
+-- El sistema garantiza la manipulación de el servicio con sitema de candados, que bloquea el uso --
+
+commit;
+-- Guardar o subir los cambios al servidor like git --
+
+-- or --
+rollback;
+-- devolver el cambio --
+
+-- Al mismo tiempo : block concurrencia Fail Se colocan en serie hasta que se cierra haciendo commit--
+update CATEGORIA 
+set N_CATEGORIA='Juan Felipe',O_DES_CATEGORIA=':D'
+where K_CATEGORIA=777;
+
+-- Delete--
+DELETE FROM CATEGORIA;
+-- No se borra ya que es PK y tiene FK en otras tanlas --
+DELETE FROM CATEGORIA where K_CATEGORIA=777;
+
+SELECT * FROM CATEGORIA order by K_CATEGORIA;
