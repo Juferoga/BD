@@ -25,32 +25,32 @@ v.k_rut = c.k_rut
 --3) VENTAS all data que se compraron en la fecha 4/11/19
 -- Proyectar RUT,NOMBRE_PROVEEDOR,N_PRODUCTO,F_VENTA
 
-
+SELECT FROM WHERE AND AND AND
 
 --4) VENTAS all data que se compraron en la fecha 4/11/19
 -- Proyectar RUT,NOMBRE_PROVEEDOR,N_PRODUCTO,F_VENTA
 
-
+SELECT FROM WHERE AND AND AND
 
 --5) VENTAS all data que se compraron en la fecha 4/11/19
 -- Proyectar RUT,NOMBRE_PROVEEDOR,N_PRODUCTO,F_VENTA
 
-
+SELECT FROM WHERE AND AND AND
 
 --6) VENTAS all data que se compraron en la fecha 4/11/19
 -- Proyectar RUT,NOMBRE_PROVEEDOR,N_PRODUCTO,F_VENTA
 
-
+SELECT FROM WHERE AND AND AND
 
 --7) VENTAS all data que se compraron en la fecha 4/11/19
 -- Proyectar RUT,NOMBRE_PROVEEDOR,N_PRODUCTO,F_VENTA
 
-
+INSERT INTO CATEGORIA values (6412,'TIPICAS', 'Empanadas Tipicas de Colombia traidas desde el ecuador, con sazon venezolana')
 
 --8) VENTAS all data que se compraron en la fecha 4/11/19
 -- Proyectar RUT,NOMBRE_PROVEEDOR,N_PRODUCTO,F_VENTA
 
-
+INSERT ALL INTO 
 
 --9-10) VENTAS all data que se compraron en la fecha 4/11/19
 -- Proyectar RUT,NOMBRE_PROVEEDOR,N_PRODUCTO,F_VENTA
